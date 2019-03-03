@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: inherit;
 }
 
 .h-tagline {
@@ -22,15 +21,23 @@
   text-decoration: none;
   font-weight: bold;
   padding-bottom: 20px;
-  border-bottom: 4px solid white;
+  border-bottom: 3px solid transparent;
+  color: #fff;
 }
 
 .h-nav-btn:hover {
-  border-bottom: 4px solid black;
+  border-bottom: 3px solid rgba(234, 202, 187);
   cursor: pointer;
 }
 
 .h-main-icon {
-  height: 40px;
-  width: 40px;
+  margin-top: 10px;
+  height: 80px;
+  width: 80px;
+}
+
+.h-main-icon:hover {
+  margin-top: 10px;
+  height: 80px;
+  width: 80px;
 }
