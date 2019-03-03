@@ -16,9 +16,8 @@ const Project = (props) => {
 
   return (
     <div className='p-container'>
-      <div>
-        <h1>{name}</h1>
-        <img className='p-project-img' src={require(`../utils/assets/${image}.png`)} />
+        <h1 className='p-title'>{name}</h1>
+        <img className='p-project-img' src={require(`../utils/assets/${image}-laptop.png`)} />
         <button>
           <a target="_blank" href={url}>LIVE</a>
         </button>
@@ -29,7 +28,6 @@ const Project = (props) => {
           <a target="_blank" href={spec}>SPEC</a>
         </button>
         <p>{description}</p>
-      </div>
       <div>
         <div>
           <h3>Technologies Used:</h3>

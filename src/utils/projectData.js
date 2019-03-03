@@ -1,14 +1,5 @@
 export const projectData = [
   {
-    name: 'Pantone',
-    description: 'If ever you\'re working on a project and you lack inspiration for the color scheme, look no further than Pantone for help.At a click of the space bar, you are presented with 5 colors to choose from.Like some of the colors, but not others? Lock the ones you like, and press the space bar again to replace the ones you don\'t like with fresh ones. Working on multiple projects at once? With Pantone you can save countless projects and unlimited palettes to each of those projects!',
-    technologies: ['javascript.png', 'css.png', 'knex.svg', 'postgresql.png'],
-    url: 'https://ch-pantone.herokuapp.com/',
-    github: 'https://github.com/caseyhoepner/pantone',
-    image: 'pantone',
-    spec: 'http://frontend.turing.io/projects/palette-picker.html'
-  },
-  {
     name: 'JetPack',
     description: 'Going on a trip, but unsure what you need to pack? JetPack is a single-page web application and your one-stop-shop for getting a weather summary and a list of essentials you\'ll need to bring to make sure you\'re prepared for anything mother nature has in store. Simply give JetPack your destination cities and it will do the rest. Pack your bag and then rest easy the night before your trip knowing you have everything you\'ll need to be warm and dry on your journey.',
     technologies: ['react.png', 'redux.png', 'reactRouter.png', 'moment.png', 'enzyme.png', 'jest.png'],
@@ -18,12 +9,21 @@ export const projectData = [
     spec: 'http://frontend.turing.io/projects/binary-challenge.html'
   },
   {
-    name: 'Nordstrom Notes',
+    name: 'Noted',
     description: 'Download Nordstrom Notes for a minimalist app where you can organize all the notes you need to keep track of from work, home, and play. With Nordstrom Notes, you can save notes, filter them by type, and re-order them by date for easy accessibility.',
     technologies: ['aws.png', 'apiGateway.svg', 'dynamoDB.svg', 'lambda.svg', 'react.png', 'redux.png', 'reactRouter.png', 'moment.png', 'enzyme.png', 'jest.png'],
     url: 'https://nordstrom-notes.herokuapp.com/',
     github: 'https://github.com/caseyhoepner/nordstrom-notes',
     image: 'nordstrom-notes',
+    spec: 'http://frontend.turing.io/projects/palette-picker.html'
+  },
+  {
+    name: 'Pantone',
+    description: 'If ever you\'re working on a project and you lack inspiration for the color scheme, look no further than Pantone for help.At a click of the space bar, you are presented with 5 colors to choose from.Like some of the colors, but not others? Lock the ones you like, and press the space bar again to replace the ones you don\'t like with fresh ones. Working on multiple projects at once? With Pantone you can save countless projects and unlimited palettes to each of those projects!',
+    technologies: ['javascript.png', 'css.png', 'knex.svg', 'postgresql.png'],
+    url: 'https://ch-pantone.herokuapp.com/',
+    github: 'https://github.com/caseyhoepner/pantone',
+    image: 'pantone',
     spec: 'http://frontend.turing.io/projects/palette-picker.html'
   },
   {

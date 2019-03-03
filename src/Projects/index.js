@@ -6,16 +6,19 @@ import { projectData } from '../utils/projectData'
 const Projects = () => {
   const projects = projectData.map(project => {
     return (
-      <Project 
+      <div 
+        className={`pp-${project.image} pp-project-container`}
         data={project}
-        key={project.name} />
+        key={project.name} >
+        <h1 className='pp-title'>{project.name}</h1>
+      </div>
     )
   })
 
   return (
-    <div>
-      <h1 id='pp-projects'>Projects</h1>
-      <div className='pp-container'>
+    <div id='projects' className='pp-container'>
+      <h1>projects</h1>
+      <div className='pp-projects-container'>
         { projects }
       </div>
     </div>

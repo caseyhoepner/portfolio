@@ -18,15 +18,11 @@ const Header = () => {
       <div className='h-nav-btns-container'>
         <a 
           className='h-nav-btn' 
-          href='#am-about-me'>
+          href='#about-me'>
           About Me</a>
         <a 
           className='h-nav-btn' 
-          href='#pp-projects'>
-          Education</a>
-        <a 
-          className='h-nav-btn' 
-          href='#pp-projects'>
+          href='#projects'>
           Projects</a>
       </div>
     </div>
