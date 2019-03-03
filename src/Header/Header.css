@@ -1,0 +1,36 @@
+.h-container {
+  margin: 0 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: inherit;
+}
+
+.h-tagline {
+  padding: 0 0 0 3%;
+}
+
+.h-nav-btns-container {
+  padding: 40px 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.h-nav-btn {
+  margin: 0 0 0 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 20px;
+  border-bottom: 4px solid white;
+}
+
+.h-nav-btn:hover {
+  border-bottom: 4px solid black;
+  cursor: pointer;
+}
+
+.h-main-icon {
+  height: 40px;
+  width: 40px;
+}
