@@ -1,19 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "f891291b90b8e499627b2c0985414f31",
-    "url": "/static/media/aws.f891291b.png"
+    "revision": "4e583504f3609b7fddf46371f4b17200",
+    "url": "/static/media/nordstrom-notes-landing.4e583504.png"
   },
   {
-    "revision": "f09016bb2c9795cdec78",
-    "url": "/static/css/main.80f71341.chunk.css"
+    "revision": "34b5f22554c12e1eb7fe",
+    "url": "/static/css/main.74f36f69.chunk.css"
   },
   {
-    "revision": "871fb0be2231f0f69b68",
-    "url": "/static/js/1.871fb0be.chunk.js"
+    "revision": "0eeb397abb0e0b57b048",
+    "url": "/static/js/1.0eeb397a.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
+  },
+  {
+    "revision": "a945b1a0702d5e840ca20aa54a8e25eb",
+    "url": "/static/media/facebook.a945b1a0.svg"
+  },
+  {
+    "revision": "ac044c0de8fbc984ca961b8c7027df38",
+    "url": "/static/media/twitter.ac044c0d.svg"
+  },
+  {
+    "revision": "44b4be47d0e8eea7e936e2006a71d564",
+    "url": "/static/media/linkedin.44b4be47.svg"
+  },
+  {
+    "revision": "b2919851c74dbe30b8d2becadeb9858d",
+    "url": "/static/media/email.b2919851.svg"
   },
   {
     "revision": "602fd47a8b86a3cc2a16776ca16a9a38",
@@ -24,12 +40,12 @@ self.__precacheManifest = [
     "url": "/static/media/pic.73c90fa0.jpg"
   },
   {
-    "revision": "af2e246054c3f5039aedbde17d79acb1",
-    "url": "/static/media/education.af2e2460.svg"
-  },
-  {
     "revision": "757f1f66aabe2a2a89849bb7bb31eb12",
     "url": "/static/media/projects.757f1f66.svg"
+  },
+  {
+    "revision": "f506760384f31cc6093110eece7bf241",
+    "url": "/static/media/back.f5067603.svg"
   },
   {
     "revision": "d7bab70a4679d750ca753858a7bbd03b",
@@ -42,6 +58,10 @@ self.__precacheManifest = [
   {
     "revision": "b3de13ced2b50279966d855502df9408",
     "url": "/static/media/mentor-laptop.b3de13ce.png"
+  },
+  {
+    "revision": "b5fc7acd04e2f38ff2b229d23fadba07",
+    "url": "/static/media/next.b5fc7acd.svg"
   },
   {
     "revision": "b1bd0e72f5fa747b8ffdeba97fbaacb4",
@@ -68,8 +88,8 @@ self.__precacheManifest = [
     "url": "/static/media/jetpack-landing.c1c3ee1f.png"
   },
   {
-    "revision": "4e583504f3609b7fddf46371f4b17200",
-    "url": "/static/media/nordstrom-notes-landing.4e583504.png"
+    "revision": "34b5f22554c12e1eb7fe",
+    "url": "/static/js/main.34b5f225.chunk.js"
   },
   {
     "revision": "1dff75c9090e16374afa7c6980281fb0",
@@ -80,8 +100,8 @@ self.__precacheManifest = [
     "url": "/static/media/apiGateway.40320d4a.svg"
   },
   {
-    "revision": "f09016bb2c9795cdec78",
-    "url": "/static/js/main.f09016bb.chunk.js"
+    "revision": "f891291b90b8e499627b2c0985414f31",
+    "url": "/static/media/aws.f891291b.png"
   },
   {
     "revision": "11f127eb8d81b576b6a09a6336f3fcd1",
@@ -128,10 +148,6 @@ self.__precacheManifest = [
     "url": "/static/media/lambda.0bf0bd36.svg"
   },
   {
-    "revision": "0e5f611709cf4924941353af2cf7d859",
-    "url": "/static/media/live.0e5f6117.svg"
-  },
-  {
     "revision": "c6359e8ba55fc71f008f637d02ca4b43",
     "url": "/static/media/me.c6359e8b.svg"
   },
@@ -160,7 +176,7 @@ self.__precacheManifest = [
     "url": "/static/media/redux.f18023dc.png"
   },
   {
-    "revision": "650ec2939b9d703d23a9e3a57e6d0d61",
+    "revision": "d51e6e985b772b2f626f3a9566b23a14",
     "url": "/index.html"
   }
 ];
