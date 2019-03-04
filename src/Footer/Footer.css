@@ -1,0 +1,8 @@
+.f-container {
+  background-color: #EACABB;
+  margin: 0;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
