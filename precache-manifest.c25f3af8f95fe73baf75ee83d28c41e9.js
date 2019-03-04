@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/aws.f891291b.png"
   },
   {
-    "revision": "f09016bb2c9795cdec78",
+    "revision": "748a9ef06b6403fc0565",
     "url": "/static/css/main.80f71341.chunk.css"
   },
   {
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/static/media/apiGateway.40320d4a.svg"
   },
   {
-    "revision": "f09016bb2c9795cdec78",
-    "url": "/static/js/main.f09016bb.chunk.js"
+    "revision": "748a9ef06b6403fc0565",
+    "url": "/static/js/main.748a9ef0.chunk.js"
   },
   {
     "revision": "11f127eb8d81b576b6a09a6336f3fcd1",
@@ -160,7 +160,7 @@ self.__precacheManifest = [
     "url": "/static/media/redux.f18023dc.png"
   },
   {
-    "revision": "650ec2939b9d703d23a9e3a57e6d0d61",
+    "revision": "6e47d65f04620766c7d8f76db456757c",
     "url": "/index.html"
   }
 ];
