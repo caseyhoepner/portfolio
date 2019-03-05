@@ -2,14 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #EEE;
+  margin-bottom: 50px;
 }
 
 .pp-projects-container {
   display: flex;
-  flex-wrap: wrap;
-  margin: 30px 15% 200px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 50px 0;
+  width: 100%;
 }
 
 .pp-project-container {
@@ -28,73 +30,9 @@
   font-weight: normal;
 }
 
-.pp-pantone {
-    background: 
-    linear-gradient(
-      rgba(0, 0, 0, .3),
-      rgba(0, 0, 0, .3)),
-    url(../utils/assets/pantone-landing.png);
-  background-size: cover;
-  width: 92%;
+.pp-icon {
+  width: 40px;
+  height: 40px;
+  margin: 40px;
 }
 
-.pp-pantone:hover {
-  background-image: url(../utils/assets/pantone-landing.png);
-  cursor: pointer;
-}
-
-.pp-nordstrom-notes {
-    background: 
-    linear-gradient(
-      rgba(0, 0, 0, .3),
-      rgba(0, 0, 0, .3)),
-    url(../utils/assets/nordstrom-notes-landing.png);
-  background-size: cover;
-}
-
-.pp-nordstrom-notes:hover {
-  background-image: url(../utils/assets/nordstrom-notes-landing.png);
-  cursor: pointer;
-}
-
-.pp-jetpack {
-    background: 
-    linear-gradient(
-      rgba(0, 0, 0, .3),
-      rgba(0, 0, 0, .3)),
-    url(../utils/assets/jetpack-landing.png);
-  background-size: cover;
-}
-
-.pp-jetpack:hover {
-  background-image: url(../utils/assets/jetpack-landing.png);
-  cursor: pointer;
-}
-
-.pp-mentor {
-    background: 
-    linear-gradient(
-      rgba(0, 0, 0, .3),
-      rgba(0, 0, 0, .3)),
-    url(../utils/assets/mentor-landing.png);
-  background-size: cover;
-  background-position: -200px
-}
-
-.pp-mentor:hover {
-  background-image: url(../utils/assets/mentor-landing.png);
-  cursor: pointer;
-}
-
-.pp-harvard {
-    background: 
-    linear-gradient(
-      rgba(0, 0, 0, .3),
-      rgba(0, 0, 0, .3)),
-    url(../utils/assets/harvard-landing.png);
-}
-
-.pp-harvard:hover {
-  background-image: url(../utils/assets/harvard-landing.png);
-  cursor: pointer;
-}

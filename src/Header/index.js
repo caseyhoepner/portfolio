@@ -1,7 +1,6 @@
 import React from 'react';
 import './Header.css';
 import chIcon2 from '../utils/assets/ch-icon2.png';
-import educationIcon from '../utils/assets/education.svg';
 import projectsIcon from '../utils/assets/projects.svg';
 
 const Header = () => {
@@ -16,14 +15,29 @@ const Header = () => {
         />
       </a>
       <div className='h-nav-btns-container'>
-        <a 
-          className='h-nav-btn' 
-          href='#about-me'>
-          About Me</a>
-        <a 
-          className='h-nav-btn' 
-          href='#projects'>
-          Projects</a>
+
+        <a target="_blank" href="https://www.facebook.com/caseyhoepner">
+          <img 
+            className='f-social-icon'
+            src={require('../utils/assets/social-icons/facebook.svg')} 
+            alt="Click to navigate to Casey's facebook."/>
+        </a>
+        <a target="_blank" href="https://www.twitter.com/caseyhoepner">
+          <img 
+            className='f-social-icon'
+            src={require('../utils/assets/social-icons/twitter.svg')} 
+            alt="Click to navigate to Casey's twitter."/>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/caseyhoepner/">
+          <img 
+            className='f-social-icon'
+            src={require('../utils/assets/social-icons/linkedin.svg')} 
+            alt="Click to navigate to Casey's linkedin."/>
+        </a>
+        <img 
+          className='f-social-icon'
+          src={require('../utils/assets/social-icons/email.svg')} 
+          alt="Click to send Casey an email"/>
       </div>
     </div>
   )

@@ -1,41 +1,55 @@
-import React from 'react';
+import React, { Component }from 'react';
 import './Project.css';
 
-const Project = (props) => {
-  const { name, description, technologies, url, github, image, spec } = props.data;
-  const technologiesIcons = technologies.map(technology => {
-    return (
+export class Project extends Component {
+  constructor(props) {
+    super(props)
+    this.state = ({
+      slideDirection: null
+    }) 
+  }
+
+  render() {
+    const { name, description, technologies, url, github, image, spec } = this.props.data;
+    const technologiesIcons = technologies.map(technology => {
+      return (
         <img 
           className='p-tech-icon'
           src={require(`../utils/assets/${technology}`)}
           alt='tech icon'
           key={technology}
         />
-    )
-  })
+      )
+    })
 
-  return (
-    <div className='p-container'>
+    return (
+      <div className={`p-position-${this.props.position} p-${this.props.slideDirection}-${this.props.projectIndex} p-container`}>
         <h1 className='p-title'>{name}</h1>
-        <img className='p-project-img' src={require(`../utils/assets/${image}-laptop.png`)} />
-        <button>
-          <a target="_blank" href={url}>LIVE</a>
-        </button>
-        <button>
-          <a target="_blank" href={github}>GITHUB</a>
-        </button>
-        <button>
-          <a target="_blank" href={spec}>SPEC</a>
-        </button>
-        <p>{description}</p>
-      <div>
-        <div>
-          <h3>Technologies Used:</h3>
-          { technologiesIcons }
+        <img 
+          className='p-project-img' 
+          src={require(`../utils/assets/${image}-laptop.png`)} />
+          <div className='p-btns'>
+            <a 
+              className='p-btn' 
+              target="_blank" 
+              href={url}>live</a>
+            <a 
+              className='p-btn' 
+              target="_blank" 
+              href={github}>repo</a>
+            <a 
+              className='p-btn' 
+              target="_blank" 
+              href={spec}>spec</a>
+          </div>
+        <p className='p-text'>{description}</p>
+        <div className='p-tech-icons'>
+            { technologiesIcons }
         </div>
       </div>
-    </div>
-  )
+    )
+    
+  }
 }
 
 export default Project;
