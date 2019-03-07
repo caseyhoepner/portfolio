@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "7eb99ad0930471fb9e1c873503729c9f",
-    "url": "/static/media/bananatree.7eb99ad0.jpeg"
+    "revision": "1e1dcbadf3da6c565baf8682edf6d6d6",
+    "url": "/static/media/aws.1e1dcbad.png"
   },
   {
-    "revision": "650333abe36a352baf09",
-    "url": "/static/css/main.a539ecfc.chunk.css"
+    "revision": "6976a58c98b7c782f700",
+    "url": "/static/css/main.3fdf6c73.chunk.css"
   },
   {
-    "revision": "1c9502010be95c5f51f2",
-    "url": "/static/js/1.1c950201.chunk.js"
+    "revision": "e28b9391b1cbeb389f3a",
+    "url": "/static/js/1.e28b9391.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -36,60 +36,44 @@ self.__precacheManifest = [
     "url": "/static/media/ch-icon2.602fd47a.png"
   },
   {
+    "revision": "7eb99ad0930471fb9e1c873503729c9f",
+    "url": "/static/media/bananatree.7eb99ad0.jpeg"
+  },
+  {
     "revision": "73c90fa09d2284a215714436901c5120",
     "url": "/static/media/pic.73c90fa0.jpg"
   },
   {
-    "revision": "757f1f66aabe2a2a89849bb7bb31eb12",
-    "url": "/static/media/projects.757f1f66.svg"
+    "revision": "80a2858a850d99c05e9b043d94c019c0",
+    "url": "/static/media/paint.80a2858a.jpeg"
   },
   {
-    "revision": "f506760384f31cc6093110eece7bf241",
-    "url": "/static/media/back.f5067603.svg"
+    "revision": "b23f2419ac5d52cd7b6de479e480e2ac",
+    "url": "/static/media/backend.b23f2419.svg"
   },
   {
-    "revision": "1c6bca0658d9c3c5dcc4fedcef3f9ef4",
-    "url": "/static/media/harvard-laptop.1c6bca06.png"
+    "revision": "55cbaeab287239a9ed254214f5cc2da5",
+    "url": "/static/media/design.55cbaeab.svg"
   },
   {
-    "revision": "6ed00812a59785139002e75558913b99",
-    "url": "/static/media/jetpack-laptop.6ed00812.png"
+    "revision": "694ce9d7863f85c4dd2fbf012b77bf3f",
+    "url": "/static/media/frontend.694ce9d7.svg"
   },
   {
-    "revision": "c121ef180ada0290f864af984e62e978",
-    "url": "/static/media/mentor-laptop.c121ef18.png"
+    "revision": "f46ca56cf6cbbcc34a4e627630f11dfd",
+    "url": "/static/media/testing.f46ca56c.svg"
   },
   {
-    "revision": "b5fc7acd04e2f38ff2b229d23fadba07",
-    "url": "/static/media/next.b5fc7acd.svg"
-  },
-  {
-    "revision": "7a90f08fb77f0370027383ed4c0495e4",
-    "url": "/static/media/nordstrom-notes-laptop.7a90f08f.png"
-  },
-  {
-    "revision": "4410ecc90f937d76b5aac24d7ca68589",
-    "url": "/static/media/pantone-laptop.4410ecc9.png"
-  },
-  {
-    "revision": "650333abe36a352baf09",
-    "url": "/static/js/main.650333ab.chunk.js"
-  },
-  {
-    "revision": "a7940d4fefada604fa9757b36f36b25f",
-    "url": "/static/media/Related image.a7940d4f.textClipping"
+    "revision": "a84b009ecbee759d41ad0e529e0c8594",
+    "url": "/static/media/workflow.a84b009e.svg"
   },
   {
     "revision": "40320d4a9db26b1649c4ef06138568fb",
     "url": "/static/media/apiGateway.40320d4a.svg"
   },
   {
-    "revision": "1e1dcbadf3da6c565baf8682edf6d6d6",
-    "url": "/static/media/aws.1e1dcbad.png"
-  },
-  {
-    "revision": "11f127eb8d81b576b6a09a6336f3fcd1",
-    "url": "/static/media/ch-icon.11f127eb.png"
+    "revision": "6976a58c98b7c782f700",
+    "url": "/static/js/main.6976a58c.chunk.js"
   },
   {
     "revision": "79a7a32fcf4f5a7a5540b3cae35bb4ba",
@@ -100,20 +84,12 @@ self.__precacheManifest = [
     "url": "/static/media/enzyme.03c81488.png"
   },
   {
-    "revision": "3b5762c32a397b72aa714311f76e3f5f",
-    "url": "/static/media/github.3b5762c3.svg"
-  },
-  {
     "revision": "0cded3a3276425911d55a2552bf361bf",
     "url": "/static/media/javascript.0cded3a3.png"
   },
   {
     "revision": "34714b8ef3d6d9887936a942a613064e",
     "url": "/static/media/knex.34714b8e.png"
-  },
-  {
-    "revision": "c6359e8ba55fc71f008f637d02ca4b43",
-    "url": "/static/media/me.c6359e8b.svg"
   },
   {
     "revision": "4766589984d0a267f392a806dbaae5d4",
@@ -140,7 +116,35 @@ self.__precacheManifest = [
     "url": "/static/media/vue.cb7955b1.png"
   },
   {
-    "revision": "72bd36b10062621f8c2c7b526877570f",
+    "revision": "1bc5dd688ff1986b83e7fd96f50f18bc",
+    "url": "/static/media/harvard-laptop.1bc5dd68.png"
+  },
+  {
+    "revision": "92f4cb5e809c168f51379ba8436ce898",
+    "url": "/static/media/jetpack-laptop.92f4cb5e.png"
+  },
+  {
+    "revision": "43fd77cdd5d35c8812f89699c8fd4ace",
+    "url": "/static/media/mentor-laptop.43fd77cd.png"
+  },
+  {
+    "revision": "f7de2b3b8cbe842453c939f78aa2b50b",
+    "url": "/static/media/noted-laptop.f7de2b3b.png"
+  },
+  {
+    "revision": "768bb82835da323c6856f2998dd9679e",
+    "url": "/static/media/pantone-laptop.768bb828.png"
+  },
+  {
+    "revision": "f506760384f31cc6093110eece7bf241",
+    "url": "/static/media/back.f5067603.svg"
+  },
+  {
+    "revision": "b5fc7acd04e2f38ff2b229d23fadba07",
+    "url": "/static/media/next.b5fc7acd.svg"
+  },
+  {
+    "revision": "bd78d26a446792a70be476ddcb9c7b4e",
     "url": "/index.html"
   }
 ];
