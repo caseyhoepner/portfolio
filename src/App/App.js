@@ -4,6 +4,7 @@ import Header from '../Header';
 import Footer from '../Footer';
 import Intro from '../Intro';
 import AboutMe from '../AboutMe';
+import Skills from '../Skills';
 import Projects from '../Projects';
 import Project from '../Project';
 import { projectData } from '../utils/projectData';
@@ -16,6 +17,7 @@ class App extends Component {
         <Route  path='/' component={Header} />
         <Route exact path='/' component={Intro} />
         <Route exact path='/' component={AboutMe} />
+        <Route exact path='/' component={Skills} />
         <Route exact path='/' component={Projects} />
         <Route exact path='/:name' render={({match}) => {
           const { name } = match.params;

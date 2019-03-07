@@ -1,0 +1,64 @@
+.s-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 5% 80px;
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, .8),
+      rgba(255, 255, 255, .8)),
+    url('../utils/assets/backgrounds/paint.jpeg');
+  background-size: cover;
+}
+
+.s-skills {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+}
+
+.s-skill {
+  border-top: 15px solid #eacabb;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px 20px 10px;
+}
+
+.s-skill-item {
+  margin: 5px 0;
+}
+
+.s-title {
+  margin: 0 0 20px;
+  letter-spacing: 5px;
+}
+
+.s-subheading {
+  letter-spacing: 5px;
+  margin: 20px 0 0;
+}
+
+.s-icon {
+  width: 80px;
+  height: 80px;
+  margin: 20px 0 40px;
+}
+
+@media only screen and (max-width: 450px) {
+  .s-container {
+    padding: 40px 5%;
+    background:
+      linear-gradient(
+        rgba(255, 255, 255, .8),
+        rgba(255, 255, 255, .8)),
+      url('../utils/assets/backgrounds/paint.jpeg');
+    background-size: cover;
+  }
+  .s-title {
+    margin: 0 0 10px;
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+  }
+}

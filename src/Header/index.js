@@ -1,7 +1,6 @@
 import React from 'react';
 import './Header.css';
 import chIcon2 from '../utils/assets/ch-icon2.png';
-import projectsIcon from '../utils/assets/projects.svg';
 
 const Header = () => {
   

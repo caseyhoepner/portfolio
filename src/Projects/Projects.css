@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #EEE;
   margin-bottom: 50px;
 }
 
@@ -10,13 +9,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 0;
+  margin: 0;
   width: 100%;
 }
 
 .pp-project-container {
   height: 300px;
-  width: 45%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,8 +29,11 @@
 }
 
 .pp-icon {
-  width: 40px;
-  height: 40px;
-  margin: 40px;
+  width: 4%;
+  margin: 5%;
+}
+
+.pp-icon:hover {
+  cursor: pointer;
 }
 

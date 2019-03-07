@@ -1,16 +1,17 @@
 .i-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: -96px;
-  height: 100vh;
-  background-image: url('../utils/assets/bananatree.jpeg');
+  margin: -99px 0 0;
+  height: 500px;
+  background-image: url('../utils/assets/backgrounds/bananatree.jpeg');
   background-size: cover;
 }
 
 .i-title {
-  padding: 300px 0 0;
-  margin: 0;
+  margin: 99px 0 0;
+  padding: 0;
   font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 15px;
@@ -26,7 +27,30 @@
 
 .i-tagline {
   letter-spacing: 4px;
-  padding: 0 0 200px;
   color: #fff;
   font-weight: normal;
+}
+
+@media only screen and (max-width: 450px) {
+
+  .i-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding: 0 5%;
+    margin: -60px 0 0;
+    height: 300px;
+  }
+
+  .i-title {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin: 0;
+  }
+
+  .i-tagline {
+    font-weight: normal;
+    font-size: 1rem;
+  }
 }

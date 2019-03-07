@@ -15,7 +15,7 @@ export class Project extends Component {
       return (
         <img 
           className='p-tech-icon'
-          src={require(`../utils/assets/${technology}`)}
+          src={require(`../utils/assets/technologies/${technology}`)}
           alt='tech icon'
           key={technology}
         />
@@ -24,27 +24,35 @@ export class Project extends Component {
 
     return (
       <div className={`p-position-${this.props.position} p-${this.props.slideDirection}-${this.props.projectIndex} p-container`}>
-        <h1 className='p-title'>{name}</h1>
-        <img 
-          className='p-project-img' 
-          src={require(`../utils/assets/${image}-laptop.png`)} />
-          <div className='p-btns'>
-            <a 
-              className='p-btn' 
-              target="_blank" 
-              href={url}>live</a>
-            <a 
-              className='p-btn' 
-              target="_blank" 
-              href={github}>repo</a>
-            <a 
-              className='p-btn' 
-              target="_blank" 
-              href={spec}>spec</a>
+        <div className='p-project-content'>
+          <h1 className='p-title'>{name}</h1>
+          <div className='p-images'>
+            <img 
+              onClick={this.props.back}
+              className='pp-back-icon pp-icon' 
+              src={require('../utils/assets/back.svg')} />
+            <img 
+              className='p-project-img' 
+              src={require(`../utils/assets/${image}-laptop.png`)} />
+            <img 
+              onClick={this.props.next}
+              className='pp-next-icon pp-icon' 
+              src={require('../utils/assets/next.svg')} />
           </div>
-        <p className='p-text'>{description}</p>
-        <div className='p-tech-icons'>
-            { technologiesIcons }
+            <div className='p-btns'>
+              <a 
+                className='p-btn' 
+                target="_blank" 
+                href={url}>live</a>
+              <a 
+                className='p-btn' 
+                target="_blank" 
+                href={github}>repo</a>
+            </div>
+          <p className='p-text'>{description}</p>
+          <div className='p-tech-icons'>
+              { technologiesIcons }
+          </div>
         </div>
       </div>
     )

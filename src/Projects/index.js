@@ -46,32 +46,17 @@ export class Projects extends Component {
 
   render() {
     const { slideDirection, projectIndex } = this.state;
+    
     return (
       <div id='projects' className='pp-container'>
-        <div className='pp-projects-container'>
-          <img 
-            onClick={this.back}
-            className='pp-back-icon pp-icon' 
-            src={require('../utils/assets/back.svg')} />
-          <Project
-            data={ projectIndex === 0 ? projectData[4] : projectData[projectIndex - 1] }
-            slideDirection={slideDirection}
-            projectIndex={ projectIndex === 0 ? 4 : projectIndex - 1 }
-            position={'left'} />       
+        <div className='pp-projects-container'>  
           <Project
             data={projectData[projectIndex]}
             slideDirection={slideDirection}
             projectIndex={projectIndex} 
-            position={'middle'} />
-          <Project
-            data={ projectIndex === 4 ? projectData[0] : projectData[projectIndex + 1] }
-            slideDirection={slideDirection}
-            projectIndex={ projectIndex === 4 ? 0 : projectIndex + 1 }
-            position={'right'} />       
-          <img 
-            onClick={this.next}
-            className='pp-next-icon pp-icon' 
-            src={require('../utils/assets/next.svg')} />
+            position={'middle'} 
+            back={this.back} 
+            next={this.next}/>   
         </div>
       </div>
     )
