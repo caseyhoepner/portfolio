@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/aws.1e1dcbad.png"
   },
   {
-    "revision": "6976a58c98b7c782f700",
-    "url": "/static/css/main.3fdf6c73.chunk.css"
+    "revision": "fde9b257f434a22ab178",
+    "url": "/static/css/main.dcac77fc.chunk.css"
   },
   {
     "revision": "e28b9391b1cbeb389f3a",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/static/media/apiGateway.40320d4a.svg"
   },
   {
-    "revision": "6976a58c98b7c782f700",
-    "url": "/static/js/main.6976a58c.chunk.js"
+    "revision": "fde9b257f434a22ab178",
+    "url": "/static/js/main.fde9b257.chunk.js"
   },
   {
     "revision": "79a7a32fcf4f5a7a5540b3cae35bb4ba",
@@ -116,6 +116,10 @@ self.__precacheManifest = [
     "url": "/static/media/vue.cb7955b1.png"
   },
   {
+    "revision": "f506760384f31cc6093110eece7bf241",
+    "url": "/static/media/back.f5067603.svg"
+  },
+  {
     "revision": "1bc5dd688ff1986b83e7fd96f50f18bc",
     "url": "/static/media/harvard-laptop.1bc5dd68.png"
   },
@@ -136,15 +140,11 @@ self.__precacheManifest = [
     "url": "/static/media/pantone-laptop.768bb828.png"
   },
   {
-    "revision": "f506760384f31cc6093110eece7bf241",
-    "url": "/static/media/back.f5067603.svg"
-  },
-  {
     "revision": "b5fc7acd04e2f38ff2b229d23fadba07",
     "url": "/static/media/next.b5fc7acd.svg"
   },
   {
-    "revision": "bd78d26a446792a70be476ddcb9c7b4e",
+    "revision": "cd3fe7b274f8138e433c4d7a1c665b9c",
     "url": "/index.html"
   }
 ];
