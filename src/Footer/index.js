@@ -25,12 +25,15 @@ const Footer = () => {
             src={require('../utils/assets/social-icons/linkedin.svg')} 
             alt="Click to navigate to Casey's linkedin."/>
         </a>
-
-
-        <img 
-          className='f-social-icon'
-          src={require('../utils/assets/social-icons/email.svg')} 
-          alt="Click to send Casey an email"/>
+        <a 
+          href="mailto:caseyhoepner@gmail.com"
+          target='_blank'
+          >
+          <img 
+            className='f-social-icon'
+            src={require('../utils/assets/social-icons/email.svg')} 
+            alt="Click to send Casey an email"/>
+        </a>
       </div>
       <p>Casey Hoepner &copy; {year}</p>
     </div>
