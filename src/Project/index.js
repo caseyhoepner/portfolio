@@ -11,6 +11,20 @@ export class Project extends Component {
 
   render() {
     const { name, description, technologies, url, github, image, spec } = this.props.data;
+    const liveIcon = getLiveIcon();
+
+    function getLiveIcon() {
+      if(url != '') {
+        return (
+          <a 
+            className='p-btn' 
+            target="_blank" 
+            href={url}>live
+          </a>
+        )
+      }
+    }
+
     const technologiesIcons = technologies.map(technology => {
       return (
         <img 
@@ -40,10 +54,7 @@ export class Project extends Component {
               src={require('../utils/assets/next.svg')} />
           </div>
             <div className='p-btns'>
-              <a 
-                className='p-btn' 
-                target="_blank" 
-                href={url}>live</a>
+              { liveIcon }
               <a 
                 className='p-btn' 
                 target="_blank" 

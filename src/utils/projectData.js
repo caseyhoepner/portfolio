@@ -31,7 +31,7 @@ export const projectData = [
     name: 'Mentor Match',
     description: 'Mentor Match is an app for internal staff and student use at Turing School of Software & Design. In Module 1, Turing students have the opportunity to be matched to a software development mentor, usually an alumni, so this app gives admin tools to manage the matching process. In later Modules, students also contact alumni for short - term mentoring as a part of students\' Professional Development curriculum, such as mock interviews and individual coffee meetings. Students can log in to the app to search for mentors in areas of interest and to connect.',
     technologies: ['html.png', 'css.png', 'react.png', 'reactRouter.png', 'redux.png', 'enzyme.png', 'jest.png'],
-    url: 'https://turing-mentor-match.herokuapp.com/',
+    url: '',
     github: 'https://github.com/caseyhoepner/pantone',
     image: 'mentor',
   },
