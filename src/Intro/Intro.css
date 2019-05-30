@@ -31,7 +31,7 @@
   font-weight: normal;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 720px) {
 
   .i-container {
     display: flex;

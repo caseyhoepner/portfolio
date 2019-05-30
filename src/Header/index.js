@@ -36,6 +36,7 @@ const Header = () => {
         <a 
           href="mailto:caseyhoepner@gmail.com"
           target='_blank'
+          rel="noopener noreferrer"
           >
           <img 
             className='f-social-icon'

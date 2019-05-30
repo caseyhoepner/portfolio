@@ -20,8 +20,8 @@ export const skillsData = [
     image: 'testing.svg'
   },
   {
-    name: 'WORKFLOW',
-    skills: ['Git/Github'],
+    name: 'Organization',
+    skills: ['Git/Github', 'Scrum', 'Kanban', 'Flow', 'Agile Development'],
     image: 'workflow.svg'
   }
 ]
