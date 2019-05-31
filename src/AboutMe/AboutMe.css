@@ -48,8 +48,8 @@ body,html{margin:0;padding:0;}
 .bg2::after {
   background:
     linear-gradient(
-      rgba(255, 255, 255, .2),
-      rgba(255, 255, 255, .2)),
+      rgba(255, 255, 255, .8),
+      rgba(255, 255, 255, .8)),
     url('../utils/assets/backgrounds/paint.jpeg');
   background-size: cover;
 }
@@ -60,9 +60,8 @@ body,html{margin:0;padding:0;}
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 0 0 0 5%;
+  padding: 5%;
   background-color: #fff;
-  height: 500px;
 }
 
 .am-text-container {
@@ -79,9 +78,9 @@ body,html{margin:0;padding:0;}
 }
 
 @media only screen and (max-width: 720px) {
-  #about-me {
+  .about-me {
     border-top: 10px solid rgba(234, 202, 187);
-    padding: 0px 5% 20px;
+    padding: 5%;
   }
 
   .am-text-container {

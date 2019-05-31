@@ -6,10 +6,21 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  -webkit-box-shadow: 0px 0px 12px -1px rgba(163,163,163,0.42);
+  -moz-box-shadow: 0px 0px 12px -1px rgba(163,163,163,0.42);
+  box-shadow: 0px 0px 12px -1px rgba(163,163,163,0.42);
 }
 
 .f-social-icon {
   height: 25px;
   width: 25px;
-  margin: 0 10px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 720px) {
+  .f-social-icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+  }
 }
