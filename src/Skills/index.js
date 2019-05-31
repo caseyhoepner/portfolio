@@ -22,7 +22,7 @@ const Skills = () => {
   })    
 
   return (
-    <div className='s-container'>
+    <div className='s-container section parallax bg2'>
       <h1 className='s-title'>Skills</h1>
       <div className='s-skills'>
 

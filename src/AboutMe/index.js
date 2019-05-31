@@ -5,7 +5,7 @@ import './AboutMe.css';
 const AboutMe = () => {
 
   return (
-    <div id='about-me'>
+    <div className='about-me section'>
       <div className='am-text-container'>
         <h2 className='am-title'>Hi, I'm Casey.</h2>
         <p className='am-text'>As an ESL teacher, social worker, and world traveler turned front-end software engineer, I bring unique skills and experiences with me into every new endeavor. I chose to switch gears and join the tech industry in order to combine my love for learning languages, eye for design, and desire to make a positive impact on the world.</p>

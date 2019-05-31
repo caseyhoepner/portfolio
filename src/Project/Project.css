@@ -32,7 +32,7 @@
 
 .p-text {
   text-align: center;
-  margin: 2% 5%;
+  margin: 2% 20%;
 }
 
 .p-tech-icons {
@@ -77,8 +77,13 @@
     width: 90%;
   }
 
-.p-tech-icon {
-  height: 20px;
-  margin: 5px;
-}
+  .p-tech-icon {
+    height: 20px;
+    margin: 5px;
+  }
+
+  .p-text {
+    text-align: center;
+    margin: 2% 5%;
+  }
 }

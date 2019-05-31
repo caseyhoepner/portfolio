@@ -3,20 +3,34 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: -99px 0 0;
-  height: 500px;
-  background-image: url('../utils/assets/backgrounds/bananatree.jpeg');
-  background-size: cover;
+  padding: 0 0 50px;
+}
+
+.h-main-icon {
+  height: 80px;
+  padding: 15px;
+}
+
+.h-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: inherit;
+  width: 100%;
+  z-index: 10;
+}
+
+.h-nav-btns-container {
+  padding: 20px;
 }
 
 .i-title {
-  margin: 99px 0 0;
   padding: 0;
   font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 15px;
   color: #fff;
   font-weight: normal;
+  margin: 100px 0 0 0;
 }
 
 .i-break {
