@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.2c9cef81.chunk.css",
-  "main.js": "/static/js/main.f12dfb2a.chunk.js",
-  "main.js.map": "/static/js/main.f12dfb2a.chunk.js.map",
+  "main.css": "/static/css/main.b59aa304.chunk.css",
+  "main.js": "/static/js/main.877f6850.chunk.js",
+  "main.js.map": "/static/js/main.877f6850.chunk.js.map",
   "static/js/1.e143bd4b.chunk.js": "/static/js/1.e143bd4b.chunk.js",
   "static/js/1.e143bd4b.chunk.js.map": "/static/js/1.e143bd4b.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -13,7 +13,6 @@
   "static/media/ch-icon2.png": "/static/media/ch-icon2.602fd47a.png",
   "static/media/github.svg": "/static/media/github.050c5271.svg",
   "static/media/AboutMe.css": "/static/media/bananatree.7eb99ad0.jpeg",
-  "static/media/Skills.css": "/static/media/paint.80a2858a.jpeg",
   "static/media/backend.svg": "/static/media/backend.b23f2419.svg",
   "static/media/design.svg": "/static/media/design.55cbaeab.svg",
   "static/media/frontend.svg": "/static/media/frontend.694ce9d7.svg",
@@ -38,8 +37,8 @@
   "static/media/noted-laptop.png": "/static/media/noted-laptop.f7de2b3b.png",
   "static/media/pantone-laptop.png": "/static/media/pantone-laptop.768bb828.png",
   "static/media/next.svg": "/static/media/next.b5fc7acd.svg",
-  "static/css/main.2c9cef81.chunk.css.map": "/static/css/main.2c9cef81.chunk.css.map",
+  "static/css/main.b59aa304.chunk.css.map": "/static/css/main.b59aa304.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.ab3625cdd26796dea12bb335be6dfd2d.js": "/precache-manifest.ab3625cdd26796dea12bb335be6dfd2d.js",
+  "precache-manifest.4cf63f57eae2f2f4f826736f9825044c.js": "/precache-manifest.4cf63f57eae2f2f4f826736f9825044c.js",
   "service-worker.js": "/service-worker.js"
 }
